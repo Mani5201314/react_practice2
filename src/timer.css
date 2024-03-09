@@ -1,0 +1,48 @@
+
+.main {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.yn5Z6mj1G3OYBWCdFctM8QHaFj&pid=Api&P=0&h=220);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    /* background:radial-gradient(RED,GREEN,rgb(89, 0, 255),rgb(255, 255, 0),rgb(255, 12, 12)); */
+    width: 30%;
+    padding: 100px 150px 170px 10px;
+    /* border-radius: 50%; */
+}
+
+h1 {
+    width: 30%;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 50px;
+    color: #ff0000;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(0, 208, 255);
+    animation: mani 2s infinite;
+}
+@keyframes mani {
+    0%{
+        color: rgb(141, 13, 13);
+    text-shadow: 5px 5px 10px rgb(229, 255, 0);
+
+    }
+    20%{
+    text-shadow: 5px 5px 10px rgb(255, 51, 0);
+    color: gold;
+    }
+    40%{
+    text-shadow: 5px 5px 10px rgb(238, 0, 255);
+    color: rgb(136, 255, 0);
+    }
+    80%{
+    text-shadow: 5px 5px 10px rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    }
+    100%{
+    text-shadow: 5px 5px 10px rgb(251, 255, 0);
+    color: darkviolet;
+    }
+}
+
